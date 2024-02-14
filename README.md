@@ -9,7 +9,7 @@ The code scans all positions in each chromosome, then retrieves all reads that m
 ## Running
 `python3 cram2text.py`
 
-\* If you find any issues please add a comments so it may help others.
+\* If you find any issues please add a comment so it may help others.
 ### Enjoy!
 
 ### Example output file (visualized):
