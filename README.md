@@ -12,5 +12,5 @@ The code scans all positions in each chromosome, then retrieves all reads that m
 \* If you find any issues please add a comments so it may help others.
 ### Enjoy!
 
-### Example file (visualized):
+### Example output file (visualized):
 <img src="https://github.com/ofermeshi/cram-to-text/assets/10656539/d2a62d03-371f-466f-a5c6-1fc49b1d76e9" width=70% height=70%>
