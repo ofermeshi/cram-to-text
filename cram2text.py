@@ -49,6 +49,7 @@ def fetch_seq(cram_file, region, length, max_buf=1e6):
   save_seq(seq, seq_begin)
 
 
+# Main starts here
 # Open the CRAM file
 print(f"Opening {cram_path}...", flush=True)
 cram_file = pysam.AlignmentFile(cram_path, "rc",
@@ -68,7 +69,6 @@ for chr in chromosomes:
   chr_len = region_lengths[chr]
   print("Length:", chr_len)
   fetch_seq(cram_file, chr, chr_len, max_buf=BASES_PER_FILE)
-
 
 # Close the CRAM file
 cram_file.close()
