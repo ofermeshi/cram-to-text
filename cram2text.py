@@ -1,8 +1,8 @@
 import pysam
 
 base_path = '/path/to/cram/directory'
-cram_path = base_path + 'name_of_file.cram'
-crai_path = base_path + 'name_of_file.cram.crai'
+cram_path = base_path + 'file_name.cram'
+crai_path = base_path + 'file_name.cram.crai'
 out_path = base_path + '/sequence'
 
 WINDOW = 1000
